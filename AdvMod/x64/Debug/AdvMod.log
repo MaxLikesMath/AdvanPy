@@ -1,0 +1,7 @@
+﻿  Admod.cpp
+     Creating library C:\Users\msdla\source\repos\advanpy\x64\Debug\AdvMod.lib and object C:\Users\msdla\source\repos\advanpy\x64\Debug\AdvMod.exp
+Admod.obj : error LNK2019: unresolved external symbol __imp_PyLong_FromLong referenced in function "struct _object * __cdecl DI(struct _object *)" (?DI@@YAPEAU_object@@PEAU1@@Z)
+Admod.obj : error LNK2019: unresolved external symbol __imp_Py_BuildValue referenced in function "struct _object * __cdecl DO_ON(struct _object *)" (?DO_ON@@YAPEAU_object@@PEAU1@@Z)
+Admod.obj : error LNK2019: unresolved external symbol __imp_PyModule_Create2 referenced in function PyInit_AdvMod
+C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_86\libs\python36.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\msdla\source\repos\advanpy\x64\Debug\AdvMod.pyd : fatal error LNK1120: 3 unresolved externals
